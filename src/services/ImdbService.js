@@ -1,7 +1,7 @@
 
 const API_URL = ``;
 
-export default class ImdbService {
+class ImdbService {
 
     constructor() {
 
@@ -24,3 +24,5 @@ export default class ImdbService {
         return response;
     }
 }
+
+export default ImdbService;
